@@ -1,0 +1,31 @@
+<div class="card" style="width: 15rem;">
+    <div class="card-header">
+      <div class="row">
+        <div class="col-md-3">
+          <h6><span class="badge bg-primary">MXN</span></h6>
+        </div>
+        <div class="col-md-3">
+          <h6><span class="badge bg-success">$72,644.66</span></h6>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title" style="text-align: center;">% de Inventario MXN</h5>
+      <h6 class="card-subtitle mb-2 text-primary" style="text-align: center;">por almacén</h6>
+      <br>
+      <div class="row">
+          <div class="col">
+              <div style="display: block">
+                <canvas baseChart
+                        [data]="doughnutChartData"
+                        [type]="doughnutChartType"
+                        [options]="doughnutChartOptions"
+                        [plugins]="doughnutChartPlugins"
+                        >
+                </canvas>
+      
+                </div>
+          </div>
+      </div>
+    </div>
+  </div>

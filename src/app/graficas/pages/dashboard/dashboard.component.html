@@ -1,0 +1,45 @@
+<h1>Inventario</h1>
+<hr>
+<div class="">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="row">
+          <div class="col-md-4">
+            <app-stock-per-warehouse></app-stock-per-warehouse>
+          </div>
+          <div class="col-md-4">
+            <app-stock-per-client></app-stock-per-client>
+          </div>
+          <div class="col-md-4">
+            <app-vertical-stock-bar></app-vertical-stock-bar>
+            <br>
+            <app-vertical-result-bar></app-vertical-result-bar>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-sm-12">
+        <div class="row">
+          <div class="col-md-4">
+            <app-stock-per-warehouse-kg></app-stock-per-warehouse-kg>
+          </div>
+          
+          <div class="col-md-4">
+            <app-stock-per-client-kg></app-stock-per-client-kg>
+          </div>
+          <div class="col-md-4">
+            <app-horizontal-stock-bar></app-horizontal-stock-bar>
+            <br>
+            <app-horizontal-result-bar></app-horizontal-result-bar>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br>
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-12">
+        <app-total-results-line></app-total-results-line>
+      </div>
+    </div>
+</div>

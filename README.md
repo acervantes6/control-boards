@@ -2,7 +2,7 @@
 
 Please click this link for open app in your browser:
 
-https://acervantes6.github.io/control-boards/graficas/dashboard
+[https://acervantes6.github.io/control-boards/](https://acervantes6.github.io/control-boards/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
